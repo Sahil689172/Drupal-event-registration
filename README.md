@@ -1,6 +1,7 @@
 Event Registration Module — Drupal 10
 📌 Project Overview
 
+
 This project implements a custom Event Registration system in Drupal 10 using only core APIs (no contributed modules).
 It allows administrators to configure events and users to register for them through a dynamic form with AJAX-driven filters.
 
