@@ -189,6 +189,7 @@ CSV export with all submitted fields
 
 📁 Repository Structure
 event_portal/
+
 ├── composer.json
 ├── composer.lock
 ├── database.sql
