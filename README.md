@@ -187,7 +187,7 @@ Filter by event date and event name
 Total participant count
 
 CSV export with all submitted fields
-
+```
 📁 Repository Structure
 event_portal/
 
@@ -209,7 +209,7 @@ event_portal/
 │               ├── event_registration.services.yml
 │               ├── event_registration.install
 │               └── README.md
-
+```
 🧪 Tested Environment
 
 Windows 11
