@@ -22,12 +22,13 @@ class EventRegistrationForm extends FormBase {
     $this->storage = $storage;
   }
 
-  public static function create(ContainerInterface $container): static {
-    return new static(
-      $container->get('event_registration.mailer'),
-      $container->get('event_registration.database')
-    );
-  }
+public static function create(ContainerInterface $container) {
+  return new static(
+    $container->get('event_registration.mailer'),
+    $container->get('event_registration.database')
+  );
+}
+
 
   public function getFormId() {
     return 'event_registration_form';
