@@ -160,7 +160,7 @@ view event registrations
 
 
 Used to restrict access to the admin registration listing page.
-
+```
 📁 Project Structure
 event_portal/
 ├── composer.json
@@ -190,7 +190,7 @@ event_portal/
 │               ├── event_registration.services.yml
 │               ├── event_registration.install
 │               └── README.md
-
+```
 🏁 Conclusion
 
 This project demonstrates:
