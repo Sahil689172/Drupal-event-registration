@@ -66,7 +66,7 @@ Event Registration
 Clear cache:
 
 /admin/config/development/performance
-
+```
 🔗 Application URLs
 Feature	URL
 Event Registration Form	/event/register
@@ -91,6 +91,7 @@ college	VARCHAR
 department	VARCHAR
 event_config_id	INT (FK)
 created	TIMESTAMP
+```
 🔄 Form Logic & AJAX Flow
 
 Category selection
